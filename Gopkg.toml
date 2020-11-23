@@ -26,40 +26,40 @@
 
 
 [[constraint]]
+  branch = "master"
+  name = "github.com/c3sr/config"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/c3sr/libkv"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/c3sr/logger"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/c3sr/serializer"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/c3sr/utils"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/c3sr/vipertags"
+
+[[constraint]]
   name = "github.com/k0kubun/pp"
-  version = "2.3.0"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/rai-project/config"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/rai-project/libkv"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/rai-project/logger"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/rai-project/serializer"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/rai-project/utils"
-
-[[constraint]]
-  branch = "master"
-  name = "github.com/rai-project/vipertags"
+  version = "3.0.7"
 
 [[constraint]]
   name = "github.com/sirupsen/logrus"
-  version = "1.4.1"
+  version = "1.7.0"
 
 [[constraint]]
   name = "github.com/stretchr/testify"
-  version = "1.2.2"
+  version = "1.6.1"
 
 [prune]
   go-tests = true

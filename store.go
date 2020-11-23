@@ -3,14 +3,14 @@ package registry
 import (
 	"context"
 
-	"github.com/rai-project/libkv"
-	store "github.com/rai-project/libkv/store"
+	"github.com/c3sr/libkv"
+	store "github.com/c3sr/libkv/store"
 
-	// "github.com/rai-project/libkv/store/boltdb"
-	"github.com/rai-project/libkv/store/consul"
-	// "github.com/rai-project/libkv/store/etcd"
-	"github.com/rai-project/libkv/store/mock"
-	// "github.com/rai-project/libkv/store/zookeeper"
+	// "github.com/c3sr/libkv/store/boltdb"
+	"github.com/c3sr/libkv/store/consul"
+	// "github.com/c3sr/libkv/store/etcd"
+	"github.com/c3sr/libkv/store/mock"
+	// "github.com/c3sr/libkv/store/zookeeper"
 )
 
 type Store interface {

@@ -4,9 +4,9 @@ import (
 	"encoding/base64"
 	"strings"
 
-	store "github.com/rai-project/libkv/store"
-	"github.com/rai-project/config"
-	"github.com/rai-project/utils"
+	store "github.com/c3sr/libkv/store"
+	"github.com/c3sr/config"
+	"github.com/c3sr/utils"
 )
 
 func decrypt(s string) string {

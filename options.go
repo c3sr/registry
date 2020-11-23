@@ -6,7 +6,7 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/rai-project/libkv/store"
+	"github.com/c3sr/libkv/store"
 )
 
 type Options struct {

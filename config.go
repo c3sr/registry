@@ -5,13 +5,13 @@ import (
 	"time"
 
 	"github.com/k0kubun/pp"
-	"github.com/rai-project/config"
-	"github.com/rai-project/libkv/store"
-	"github.com/rai-project/serializer"
-	_ "github.com/rai-project/serializer/bson"
-	_ "github.com/rai-project/serializer/json"
-	_ "github.com/rai-project/serializer/jsonpb"
-	"github.com/rai-project/vipertags"
+	"github.com/c3sr/config"
+	"github.com/c3sr/libkv/store"
+	"github.com/c3sr/serializer"
+	_ "github.com/c3sr/serializer/bson"
+	_ "github.com/c3sr/serializer/json"
+	_ "github.com/c3sr/serializer/jsonpb"
+	"github.com/c3sr/vipertags"
 )
 
 type registryConfig struct {
