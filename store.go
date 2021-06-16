@@ -4,13 +4,9 @@ import (
 	"context"
 
 	"github.com/c3sr/libkv"
-	store "github.com/c3sr/libkv/store"
-
-	// "github.com/c3sr/libkv/store/boltdb"
+	"github.com/c3sr/libkv/store"
 	"github.com/c3sr/libkv/store/consul"
-	// "github.com/c3sr/libkv/store/etcd"
 	"github.com/c3sr/libkv/store/mock"
-	// "github.com/c3sr/libkv/store/zookeeper"
 )
 
 type Store interface {
@@ -56,7 +52,4 @@ func New(opts ...Option) (Store, error) {
 
 func init() {
 	consul.Register()
-	// boltdb.Register()
-	// etcd.Register()
-	// zookeeper.Register()
 }
