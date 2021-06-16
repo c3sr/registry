@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"strings"
 
-	store "github.com/c3sr/libkv/store"
 	"github.com/c3sr/config"
+  "github.com/c3sr/libkv/store"
 	"github.com/c3sr/utils"
 )
 

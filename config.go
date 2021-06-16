@@ -1,17 +1,17 @@
 package registry
 
 import (
-	"strings"
-	"time"
+  "strings"
+  "time"
 
-	"github.com/k0kubun/pp/v3"
-	"github.com/c3sr/config"
-	"github.com/c3sr/libkv/store"
-	"github.com/c3sr/serializer"
-	_ "github.com/c3sr/serializer/bson"
-	_ "github.com/c3sr/serializer/json"
-	_ "github.com/c3sr/serializer/jsonpb"
-	"github.com/c3sr/vipertags"
+  "github.com/c3sr/config"
+  "github.com/c3sr/libkv/store"
+  "github.com/c3sr/serializer"
+  _ "github.com/c3sr/serializer/bson"
+  _ "github.com/c3sr/serializer/json"
+  _ "github.com/c3sr/serializer/jsonpb"
+  "github.com/c3sr/vipertags"
+  "github.com/k0kubun/pp/v3"
 )
 
 type registryConfig struct {
